@@ -1,6 +1,22 @@
 p { color: brown; }
 h1 { color: blue; }
-h2 { color: brown; }
+h2 { color: brown;
+    margin-top: 1em;
+  padding-top: 1em;
+ }
 ul { color: deeppink; }
 .vihr { color: red; }
 h4 { color: brown; }
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+    line-height: 1.5;
+  padding: 4em 1em;
+  color: #555;  
+}
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+  background: #eee;
+}
